@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-inter: "Inter", sans-serif;
+  --font-plex: "IBM Plex Sans", sans-serif;
+}
+
+body {
+  @apply bg-surface text-ink font-body antialiased;
+}
+
+/* Citation pin - the signature element. Every AI claim traces back to a
+   real page in a real document, so citations get their own distinct,
+   consistent visual language across Chat and Reports. */
+.citation-pin {
+  @apply inline-flex items-center gap-1 rounded-full bg-cite-bg text-cite
+         text-xs font-medium px-2 py-0.5 border border-cite/20;
+}
+
+.card {
+  @apply bg-white border border-border rounded-xl shadow-sm;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background: #d0d5dd;
+  border-radius: 8px;
+}
