@@ -19,11 +19,11 @@ This copilot answers that instantly, with the receipts to back it up.
 
 ## Features
 
-- 📄 **PDF ingestion pipeline** — drag-and-drop upload, background processing, live status
-- 🔍 **Retrieval-Augmented Generation** — semantic search over every uploaded document, not keyword matching
-- 📌 **Grounded citations** — every claim is traceable to `filename + page number`, never a hallucinated guess
-- 📊 **One-click executive reports** — Key Findings, Risks, Recommendations, Dates, Financial Obligations, exported as PDF
-- 🗂️ **Document type filtering** — scope search/reports to leases, inspections, invoices, or maintenance logs
+- **PDF ingestion pipeline** — drag-and-drop upload, background processing, live status
+- **Retrieval-Augmented Generation** — semantic search over every uploaded document, not keyword matching
+- **Grounded citations** — every claim is traceable to `filename + page number`, never a hallucinated guess
+- **One-click executive reports** — Key Findings, Risks, Recommendations, Dates, Financial Obligations, exported as PDF
+- **Document type filtering** — scope search/reports to leases, inspections, invoices, or maintenance logs
 
 ## Screenshots
 
