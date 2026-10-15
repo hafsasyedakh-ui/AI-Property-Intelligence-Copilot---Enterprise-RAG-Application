@@ -129,7 +129,7 @@ Visit `http://localhost:3000`.
   instead of in-Python cosine similarity. Everything else in the pipeline
   is unchanged.
 
-## Known limitations (worth saying out loud in an interview)
+## Known limitations
 
 - Vector search is in-Python cosine similarity over all chunks — fine for a
   demo/thousands of chunks, not for a production-scale corpus (that's what
